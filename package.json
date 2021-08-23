@@ -1,0 +1,23 @@
+{
+  "name": "mathjs-symbolic-tools",
+  "version": "1.0.0",
+  "description": "Query and replace math.js nodes",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m93a/mathjs-symbolic-tools.git"
+  },
+  "author": "Michal Grňo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/m93a/mathjs-symbolic-tools/issues"
+  },
+  "homepage": "https://github.com/m93a/mathjs-symbolic-tools#readme",
+  "dependencies": {
+    "mathjs": "^9.4.4",
+    "typescript": "^4.3.5"
+  }
+}
