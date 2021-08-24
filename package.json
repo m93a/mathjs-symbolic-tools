@@ -4,7 +4,10 @@
   "description": "Query and replace math.js nodes",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm test"
+    "build": "tsc",
+    "test": "npm test",
+    "lint": "ts-standard ./src",
+    "lint-fix": "ts-standard --fix ./src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +21,7 @@
   "homepage": "https://github.com/m93a/mathjs-symbolic-tools#readme",
   "dependencies": {
     "mathjs": "^9.4.4",
+    "ts-standard": "^10.0.0",
     "typescript": "^4.3.5"
   }
 }

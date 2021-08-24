@@ -1,6 +1,9 @@
 {
     "compilerOptions": {
         "module": "ES2020",
+        "lib": [
+            "ES2021",
+        ],
         "strict": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
